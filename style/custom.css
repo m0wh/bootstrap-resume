@@ -1,0 +1,130 @@
+.col-2, .col-3, .col-4, .col-7, .col-8 {
+		padding: 0 25px;
+}
+
+.row {
+		margin-bottom: 50px;
+}
+
+.row:last-of-type {
+		margin-bottom: 0;
+}
+
+body {
+		background: #456;
+}
+
+.container {
+		border-radius: 2px;
+		background: #fafafa;
+		margin: 100px auto;
+		padding: 100px;
+		box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+		list-style: none;
+		display: inline-block;
+		padding: 0;
+}
+
+ul li {
+		text-align: right;
+}
+
+ul li svg {
+		width: 25px !important;
+}
+
+body {
+		color: #34374c;
+		font-family: 'Roboto', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body a {
+		color: #456;
+}
+
+body a:hover {
+		color: #456;
+}
+
+body h1 {
+		font-weight: bold;
+		font-family: 'Montserrat', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body h2 {
+		font-family: 'Montserrat', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		font-weight: normal;
+		margin-bottom: 25px;
+}
+
+body p {
+		color: #717381;
+		margin-bottom: 0;
+}
+
+section {
+		margin-top: 70px;
+}
+
+section:first-of-type {
+		margin-top: 0;
+}
+
+.experience {
+		margin-bottom: 1.5rem;
+}
+
+.experience small:first-of-type {
+		display: inline-block;
+		text-align: left;
+		width: 50%;
+		font-size: 14px;
+}
+
+.experience small:last-of-type {
+		display: inline-block;
+		text-align: right;
+		width: 50%;
+		font-size: 14px;
+}
+
+.experience h3 {
+		font-weight: bold;
+		position: relative;
+}
+
+.experience h3::before {
+		content: '';
+		position: absolute;
+		width: 15px;
+		height: 25px;
+		left: -25px;
+		top: 5px;
+}
+
+.experience h4 {
+		font-size: 18px;
+}
+
+.experience h4 > a {
+		color: #34374c;
+}
+
+.experience.red small {
+		color: #ff0039;
+}
+
+.experience.red h3::before {
+		background-color: #ff0039;
+}
+
+.experience.cyan small {
+		color: #00c8d7;
+}
+
+.experience.cyan h3::before {
+		background-color: #00c8d7;
+}
