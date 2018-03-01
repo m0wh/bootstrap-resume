@@ -43,10 +43,10 @@ $(document).ready(function() {
   $('.experience').css('opacity', '1');
 
   $(window).scroll(function() {
-    if ($(window).scrollTop() > $('#sect-languages').offset().top) {
+    if ($(window).scrollTop() > $('#sect-languages').offset().top - $(window).height() + 100) {
       $('#sect-languages').css('opacity', '1');
     }
-    if ($(window).scrollTop() > $('#sect-hobbies').offset().top) {
+    if ($(window).scrollTop() > $('#sect-hobbies').offset().top - $(window).height() + 100) {
       $('#sect-hobbies').css('opacity', '1');
     }
   });
